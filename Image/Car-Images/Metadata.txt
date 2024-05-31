@@ -1,0 +1,5 @@
+Pictures of 20 car models - mainstream, luxury and exotic.
+Each folder contains 5 pictures - for model years 2020-2024.
+Naming format is: Make-Model-Year.jpg
+Each file size about 100-150 KB.
+100 files overall - 20*5.
