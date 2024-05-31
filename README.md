@@ -7,7 +7,7 @@
 ## Background
 The integration of blockchain technology is revolutionizing the vehicle registration process, shifting the primary method from traditional paperwork and centralized databases to digital platforms. Blockchain uses a decentralized ledger to record and store car registration data, ensuring that all records are transparent, tamper-proof, and easily accessible to authorized parties. Smart contracts automate the registration process by verifying and transferring ownership instantly upon fulfillment of pre-defined conditions, reducing the need for intermediaries and speeding up the process. Car registrations are issued as digital certificates on the blockchain, which are cryptographically secured, making them resistant to forgery and fraud. The immutable nature of blockchain ensures that once a registration record is added, it cannot be altered or deleted, maintaining the integrity and accuracy of vehicle ownership history. This technology also reduces costs by eliminating intermediaries and administrative overhead, streamlines the registration process, and enhances security. Blockchain facilitates interoperability between different jurisdictions, making it easier to manage car registrations across borders.
 
-At a high level, the system consists of three main components: `CarRegister.sol`, `TitleTransfer.sol`, and `AutoChain.py`. `CarRegister.sol` defines a smart contract for managing car registrations, including events for registering cars, transferring titles, updating ownership, and looking up car information. TitleTransfer.sol handles the initiation and completion of title transfers. `AutoChain.py` integrates with the Pinata cloud API for IPFS file hosting, connects Python with Solidity, and sets up the user interface using Streamlit. Together, these components form a cohesive system for secure, transparent, and efficient car registration and title management on the blockchain.
+At a high level, the system consists of three main components: `CarRegister.sol`, `TitleTransfer.sol`, and `AutoChain.py`. `CarRegister.sol` defines a smart contract for managing car registrations, including events for registering cars, transferring titles, updating ownership, and looking up car information. `TitleTransfer.sol` handles the initiation and completion of title transfers. `AutoChain.py` integrates with the [Pinata](https://app.pinata.cloud/pinmanager) cloud API for IPFS file hosting, connects `Python` with `Solidity`, and sets up the user interface using `Streamlit`. Together, these components form a cohesive system for secure, transparent, and efficient car registration and title management on the blockchain.
 
 ## Objective
 Create and demonstrate a car registration system that utilizes blockchain technology.
@@ -89,7 +89,7 @@ Creating a car registration system on the blockchain forms a cohesive system for
 
 **3. [AutoChain.py](AutoChain.py)**
 
-   - IPFS File Hosting: Sets up Pinata cloud API to store car registration documents on IPFS.
+   - IPFS File Hosting: Sets up [Pinata](https://app.pinata.cloud/pinmanager) cloud API to store car registration documents on IPFS.
      ```python
         load_dotenv()
     
@@ -133,7 +133,7 @@ Creating a car registration system on the blockchain forms a cohesive system for
         # Initialize Web3 with Ganache endpoint
         w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
     
-   - User Interface: Implements a Streamlit interface for easy interaction with the blockchain, allowing users to register cars, initiate and complete title transfers, and look up car information.
+   - User Interface: Implements a `Streamlit` interface for easy interaction with the blockchain, allowing users to register cars, initiate and complete title transfers, and look up car information.
 
 ## Conclusion
 
