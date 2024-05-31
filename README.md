@@ -140,8 +140,14 @@ Creating a car registration system on the blockchain forms a cohesive system for
 Overall, blockchain brings transparency, fraud prevention, streamlined transfers, cost savings, global standardization, and improved record-keeping to the vehicle registration process, modernizing it for the digital age.
 
 ## Credits
+
 https://ethereum.org/en/developers/docs/
+
 https://remix-ide.readthedocs.io/en/latest/
+
 https://docs.soliditylang.org/en/v0.8.26/
+
 https://docs.ipfs.tech/
+
 https://docs.streamlit.io/develop
+
