@@ -53,7 +53,6 @@ Creating a car registration system on the blockchain forms a cohesive system for
         address indexed old_owner,
         address indexed new_owner
     );
-    ```
    - Car Lookup: Provides functions to retrieve car details using the `VIN`.
     
 **2. [TitleTransfer.sol](TitleTransfer.sol)**
@@ -86,7 +85,7 @@ Creating a car registration system on the blockchain forms a cohesive system for
 
         emit TransferInitiated(totalTransferRequests, _vin, _seller, _buyer, _price, _transferTimestamp);
     }
-    ```
+    
 
 **3. [AutoChain.py](AutoChain.py)**
 
@@ -127,13 +126,13 @@ Creating a car registration system on the blockchain forms a cohesive system for
         else:
             st.error("No image file provided")
             return None
-    ```
+    
    - Blockchain Connection: Uses `web3.py` to interact with deployed Solidity contracts from Python.
      ```python
     from web3 import Web3
     # Initialize Web3 with Ganache endpoint
     w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
-    ```
+    
    - User Interface: Implements a Streamlit interface for easy interaction with the blockchain, allowing users to register cars, initiate and complete title transfers, and look up car information.
 
 ## Conclusion
