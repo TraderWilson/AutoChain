@@ -1,6 +1,6 @@
 # AutoChain Project
 
-<img src='https://github.com/TraderWilson/AutoChain/blob/main/Image/blockchain_title.png' width="1000" height="400">
+<img src='https://github.com/TraderWilson/AutoChain/blob/main/Image/blockchain_title.jpeg' width="1000" height="400">
 
 ## Background
 The integration of blockchain technology is revolutionizing the vehicle registration process, shifting the primary method from traditional paperwork and centralized databases to digital platforms. Blockchain uses a decentralized ledger to record and store car registration data, ensuring that all records are transparent, tamper-proof, and easily accessible to authorized parties. Smart contracts automate the registration process by verifying and transferring ownership instantly upon fulfillment of pre-defined conditions, reducing the need for intermediaries and speeding up the process. Car registrations are issued as digital certificates on the blockchain, which are cryptographically secured, making them resistant to forgery and fraud. The immutable nature of blockchain ensures that once a registration record is added, it cannot be altered or deleted, maintaining the integrity and accuracy of vehicle ownership history. This technology also reduces costs by eliminating intermediaries and administrative overhead, streamlines the registration process, and enhances security. Blockchain facilitates interoperability between different jurisdictions, making it easier to manage car registrations across borders.
